@@ -338,3 +338,5 @@ Built with ❤️ for the Stellar ecosystem
 ## Fix for Issue #196: Test database not reset between suites
 
 Add a test setup hook that truncates the test database between suites to prevent state leakage. Shared state causes flaky CI tests.
+
+<!-- fix: issue #196 - [TEST-012] Test database not reset between test suites -->
